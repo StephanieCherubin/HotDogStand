@@ -1,0 +1,329 @@
+<html>
+  <head>
+    <title>Font Styles Sample Text</title>
+    <link rel="stylesheet" href="framwerk-light-theme.css">
+    <link rel="stylesheet" href="framwerk-dark-theme.css">
+    <link rel="stylesheet" href="hotdogstand.css">
+  </head>
+<body>
+<!-- I added these inline styles to make this easy to read feel free 
+  to edit or remove -->
+<div style="width: 600px; margin: auto;"> 
+  <h1>Typography Sample</h1>
+
+  <h2>What is this?</h2>
+
+  <p class="lead">This page contains several common tags that you will 
+    see on almost any web page. <mark>The goal is to style all of the 
+    type here so it looks good and reads well.</mark></p>
+
+  <p>Get started by looking at the page without any styles. 
+    Next apply some styles. Use your judgement and <mark>get feedback
+    from <em>anyone</em> available.</mark> Listen to what people think 
+    and and apply their suggestions.</p>
+
+  <p>At this step you will <strong>mostly be styling elements</strong>.
+  That is you will <mark>writing styles where the <em>selector</em> is a 
+tag.</mark></p>
+
+  <p>For example:</p>
+
+<pre>
+<code>
+body {
+  ...
+  color: #eee;
+  ...
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+etc.
+</code>
+</pre>
+
+  <h2>Challenges</h2>
+
+  <p class="lead">Read the challenges and follow the instructions for 
+    each. You will be styling <em>this document</em> along the way. 
+    Keep your eye on it and make it look the best you can. </p>
+
+<hr>
+
+  <h3 id="challenge-1">Challenge 1 - 
+    <span class="text-muted">Create a stylesheet</span></h3>
+
+  <p class="lead">Create a new stylesheet and link it to this document.</p>
+
+  <p>This will be the <mark>base stylesheet for your framework.</mark> 
+    Any developer should be able to link to this stylesheet and get all of your base styles and produce and produce an HTML document that looks better than the default styles provided by the browser. 
+  </p>
+
+  <hr>
+
+  <h3 id="challenge-2">Challenge 2 - 
+    <span class="text-muted">Define a base font style</span></h3>
+
+  <p class="lead">Define a font style by setting rules on the 
+    <em>body element</em> in your stylesheet.</p>
+  
+  <p>Set <code>font-family</code> to a font-stack or a custom font.</p>
+  
+  <p>Set the <code>font-size</code> and <code>line-height</code> to 
+    make the text read well in the browser. Use your best judgment here.</p>
+
+<hr>
+
+  <h3 id="challenge-3">Challenge 3 - 
+    <span class="text-muted">Define heading styles</span></h3>
+
+  <p class="lead">Define styles for the H1-h6. Do this by setting 
+    them to a value in <code>em</code>s. For example: 
+    <code>h1: 2.5em</code>. You can also set the weight and color if 
+    you think it will look better. Larger type gets more attention for 
+    the size this can be softened by decreasing the contrast by using 
+    a lighter color. 
+  </p>
+
+  <p><strong>Headings are meant to lead in or label a section.</strong> 
+    We use them not because the text is larger but because we want to 
+    <em>call attention to the name of a section, label, or  
+      big idea on the page.</em>
+  </p>
+
+  <p>Take a look at the 
+    <a href="https://getbootstrap.com/docs/4.3/content/typography/#headings">headings Bootstrap uses</a>. 
+    <a href="https://foundation.zurb.com/sites/docs/typography-base.html#header">Foundation headings</a> 
+    are also worth looking at. <mark>Emulate these in your design</mark>. 
+    Define your heading styles and look at the headings below and the headings used throughout this document to see how your styles look.
+  </p>
+
+  <div>
+    <h1>Heading h1</h1>
+    <h2>Heading h2</h2>
+    <h3>Heading h3</h3>
+    <h4>Heading h4</h4>
+    <h5>Heading h5</h5>
+    <h6>Heading h6</h6>
+  </div>
+
+  <hr>
+
+  <h3 id="challenge-4">Challenge 4 - 
+    <span class="text-muted">Style inline elements</span></h3>
+
+  <p class="lead">Inline elements add nuance and expression to the text. 
+  </p>
+
+  <p>Inline elements include the <code>strong</code> (use for important text), <code>em</code> (add emphasis), 
+    <code>abbr</code> (abbreviation), <code>del</code> (deleted, mark something has been deleted), 
+    <code>s</code> (strike-through, use for text that is no longer correct), 
+    and <code>mark</code> (hightlighted text). Developers will use these
+    to increase the communication and nuance of the language written 
+    on a page. Look at this document, you will see many of these tags used. 
+  </p>
+
+  <p>
+    Style the tags below and look at the sample text and other text on this page 
+    to see how your styles are working. <mark>You can stick with the default style or 
+    add your own rules</mark>. You can style the <code>font-weight</code>, 
+    <code>color</code>, <code>background-color</code>, 
+    <code>text-decoration</code> and anything else you can think of. 
+  </p>
+
+  <div>
+    <p><strong>Text using the strong tag</strong></p>
+    <p><em>Text using the em tag</em></p>
+    <p><abbr>Text using the abbr tag</abbr></p>
+    <p><del>Text using the abbr tag</del></p>
+    <p><s>Text using the s tag</s></p>
+    <p><mark>Text using the mark tag</mark></p>
+  </div>
+
+  <p>Take a look at  
+    <a href="https://getbootstrap.com/docs/4.3/content/typography/#inline-text-elements">Bootstrap's inline elements</a>. </p>
+
+<hr>
+
+  <h3 id="challenge-5">Challenge 5 - 
+    <span class="text-muted">Color</span></h3>
+
+  <p class="lead">Color is important. By default text is black and 
+    the background color of the page is white. This is rather harsh and doesn't look that great. You can do better!  
+  </p>
+
+  <p>Style the <code>color</code> and <code>background-color</code> 
+    on the body tag in your stylesheet. Use colors with good contrast. 
+    Check your colors with the <a href="https://webaim.org/resources/contrastchecker/">contrast checker</a>. 
+  </p>
+
+  <hr>
+
+  <h3 id="challenge-6">Challenge 6 - 
+    <span class="text-muted">Links</span></h3>
+
+  <p class="lead">Links are important. They need to stand out from the 
+    text around them and let visitors know that something is clickable and will lead to more information. 
+  </p>
+
+  <p>Links by default are blue and have an underline. <mark>You can change 
+    both of these things for an improvement!</mark> Links also have 
+    styles that apply to their <em>interactive states</em> - 
+    <code>:hover</code>, <code>:active</code>, and <code>:visited</code>. 
+    <strong>You should set a style for each of these.</strong> 
+  </p>
+
+  <div>
+    <p>This paragraph contains links to the various sections on this page. 
+      If you have gotten this far you have <a href="#challenge-1">created a stylesheet</a>, 
+      then you defined a <a href="#challenge-2">base font</a>, next it was 
+      <a href="#challenge-3">heading styles</a>, followed by 
+      <a href="#challenge-4">inline styles</a>, and then 
+      <a href="#challenges-5">colors.</a> 
+    </p>
+  </div>
+
+  <p>You should style the <code>:hover</code>, <code>:active</code>, 
+    and <code>:visited</code> pseudo classes. 
+    Read about these <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links">here</a>.</p>
+
+<hr>
+
+  <h3 id="challenge-7">Challenge 7 - 
+    <span class="text-muted">Blockquotes</span></h3>
+
+  <p class="lead">Blocks quotes are used present a quoted block of 
+    text. Usually, you'll also add a citation which says where the quote came from or who it is attributed to.
+  </p>
+
+  <p>The <code>blockquote</code> is a tag used to say something is 
+    quoted from another source. The <code>cite</code> tag is used to 
+    reference the author or source of a creative work. 
+    When including quoted work you'll usually use both in conjunction 
+    with these to make a good looking blockquote. Take a look at the 
+    markup used by <a href="https://foundation.zurb.com/sites/docs/typography-base.html#blockquotes">Foundation</a> 
+    and <a href="https://getbootstrap.com/docs/4.3/content/typography/#blockquotes">Bootstrap</a>.
+    Then write some styles for the blockquote and the cite tag when it appears inside a blockquote. 
+    Keep your eye on the example blockquotes below. I've marked up the quoted text below with the p and cite tags inside the blockquote.
+  </p>
+
+  <p>The blockquote default style includes (a lot of) margin on the 
+    left and right. <em>You can change this if you like!</em> Take 
+    a look at some these <a href="https://1stwebdesigner.com/css-snippets-blockquotes/">examples</a>
+    for ideas. 
+  </p>
+
+  <div>
+    <blockquote>
+        <p>You can do anything, but not everything.</p>
+        <cite>- David Allen</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>You miss 100 percent of the shots you never take.</p>
+        <cite>- Wayne Gretzky</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>You must be the change you wish to see in the world.</p>
+        <cite>- Gandhi</cite>
+    </blockquote>
+
+    <blockquote>
+        <p>The third-rate mind is only happy when it is thinking with 
+          the majority. The second-rate mind is only happy when it is 
+          thinking with the minority. The first-rate mind is only 
+          happy when it is thinking.</p>
+        <cite>- A. A. Milne</cite>
+    </blockquote>
+  </div>
+
+  <hr>
+
+  <h3 id="challenge-8">Challenge 8 - 
+      <span class="text-muted">Divider styles</span></h3>
+
+  <p class="lead">The <code>hr</code> tag (horizontal rule) draws a line across the page. It signifies a 
+    division in the page. This could be a thematic shift or change of topic. 
+  </p>
+
+  <p>By default the <code>hr</code> has a border style. You can change it! 
+  Take a look at some of these 
+  <a href="https://codepen.io/ibrahimjabbari/pen/ozinB">hr ideas</a>.</p>
+
+  <div>
+    <p>These paragraphs are seprated by horizontal rules.</p>
+    <hr>
+    <p>All of the tags have default styles. You can see them 
+      <a href="https://www.w3schools.com/cssref/css_default_values.asp">here</a>. </p>
+    <hr>
+    <p>Here are some <a href="https://www.w3schools.com/howto/howto_css_style_hr.asp">easy to follow ideas</a> for styling the hr tag</p>
+  </div>
+
+  <hr>
+
+  <h3 id="challenge-9">Challenge 9 - 
+      <span class="text-muted">Lead style</span></h3>
+
+  <p class="lead">Sometimes we will want to have a <em>lead</em> style. This can be 
+  the first paragraph in section or just an alternate style to 
+make a paragraph standout. Take a look at how 
+<a href="https://getbootstrap.com/docs/4.0/content/typography/#lead">Bootstrap uses lead</a>.</p>
+
+<p>Style "lead" by styling the class: lead. Easiest is to change the 
+  <code>font-size</code>, and or <code>color</code>.</p>
+
+<pre>
+<code>
+.lead {
+  /* Your styles */
+}
+</code>
+</pre>
+
+<hr>
+
+<h3 id="challenge-10">Challenge 10 - 
+    <span class="text-muted">Muted text</span></h3>
+
+    <p class="lead">Sometimes you'll want to create some text that feels 
+      secondary to the text it is paired with. </p>
+
+  <p>Follow <a href="https://getbootstrap.com/docs/4.0/content/typography/#customizing-headings">Bootstrap's example</a>. 
+    Use a class name: <code>.text-muted</code>. You can see this 
+  style used in the second half each heading on this page and 
+  in the sample text below.</p>
+
+<pre>
+<code>
+.text-muted {
+  /* some styles here */
+}
+</code>
+</pre>
+
+<div>
+  <h1>A Heading with some <span class="text-muted">Muted Text</span></h1>
+  <p>This paragraph uses the regular/default styles.</p>
+  <p class="text-muted">This paragraph uses the <code>.text-muted</code> class.</p>
+</div>
+
+<h3 id="challenge-11">Challenge 11 - 
+    <span class="navbar">Navbar</span>
+  </h3>
+<div class="navbar">
+    <ul>
+      <li><a class="title">FRMWRK</a></li>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#navbar">Navbar</a></li>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#type">Type</a></li>
+      <li><a href="#forms">forms</a>
+      <li><a href="#footer">Footer</a></li>
+    </ul>
+  
+    <ul>
+      <li><a href="https://github.com/soggybag/frmwrk-css">GitHub</a></li>
+    </ul>

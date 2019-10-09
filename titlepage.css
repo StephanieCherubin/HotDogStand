@@ -1,0 +1,16 @@
+body {
+  background-color: brown;
+  text-align: center;
+  margin: 15em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 60, 0);
+}
+
+a {
+  color: rgb(247, 198, 0);
+  text-decoration: none;
+}
+
+div {
+  margin: 5em;
+}

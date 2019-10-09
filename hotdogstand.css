@@ -1,0 +1,165 @@
+:root {
+  --font-family: Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, ‘Liberation Mono’, ‘Nimbus Mono L’, Monaco, ‘Courier New’, Courier, monospace;
+  --font-size: 18px;
+  --bg-color: gray;
+  --fg-color: rgba(63, 30, 30, 0.104);
+}
+
+
+body {
+  font-family: Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  background-color: red;
+  color: var
+}
+
+/* h1 {
+  font-size: 2.5em;
+} */
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.75em
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgb(164, 156, 163)
+}
+
+a:active {
+  color:rgb(6, 3, 4)
+}
+
+a:visited{
+  color: fuchsia;
+}
+
+mark {
+  color: orange;
+}
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.navbar > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li:first-child {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.navbar a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: gray;
+}
+
+.primary {
+  background-color: yellow;
+  color: white;
+  border: none;
+}
+
+.secondary {
+  border: 2px solid yellow;
+  color: yellow;
+}
+
+.tertiary {
+  color: yellow;
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.primary.danger {
+  background-color: red !important
+}
+
+.secondary.danger {
+  color: red;
+  border-color: red !important;
+}
+
+.tertiary.danger {
+  color: red;
+}
+
+.primary.success {
+  background-color: green !important
+}
+
+.secondary.success {
+  color: green;
+  border-color: green !important;
+}
+
+.tertiary.success {
+  color: green;
+}
+input {
+  margin: 5px;
+  background-color: white;
+  height: 40px;
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 8px;
+  line-height: 1.15;
+  display: block;
+}
+
+input[type="checkbox"] {
+  top: 1px;
+  left: 0;
+  height: 18px;
+}
+
+input[type="radio"] {
+  margin: 4px;
+  display: inline;
+}
+
+/* input[type="textarea"] {
+  display: block;
+}  */
