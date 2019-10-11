@@ -19,8 +19,7 @@ Here is how the [Window's 3.1](https://en.wikipedia.org/wiki/Windows_3.1x "Wikip
 ![Window's 3.1 Hot Dog Theme](HotDogThemebyWindows3.1.png "Hot Dog Theme Inspiration")
 
 ## Live
-For the live version, click [here]().
-Here's how this framework looks (giphy)
+For the live version, click [here](https://stephaniecherubin.github.io/HotDogStand/).
 
 ## Getting Started
 
@@ -45,4 +44,4 @@ The compiled project can be run with the command `npm start`. Press `Ctrl + C` t
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-#### Fun Fact: I actually hate hot dogs and haven't had one since grade school.
+Fun Fact: I actually hate hot dogs and haven't had one since grade school.

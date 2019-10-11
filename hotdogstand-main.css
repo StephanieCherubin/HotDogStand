@@ -1,17 +1,10 @@
-:root {
-  --font-family: Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, ‘Liberation Mono’, ‘Nimbus Mono L’, Monaco, ‘Courier New’, Courier, monospace;
-  --font-size: 18px;
-  --bg-color: gray;
-  --fg-color: rgba(63, 30, 30, 0.104);
-}
-
-
 body {
   font-family: Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 2em;
   background-color: red;
-  color: white
+  color: white;
+  margin: 0
 }
 
 /* h1 {
@@ -58,17 +51,14 @@ a:visited{
 
 mark {
   color: orange;
-}
-body {
-  margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: yellow;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: black;
+  background-color: rgb(40, 39, 39);
 }
 
 .navbar > ul {
@@ -88,11 +78,11 @@ body {
   display: block;
   padding: 1em;
   text-decoration: none;
-  color: black;
+  color: yellow;
 }
 
 .navbar a:hover {
-  color: gray;
+  color: orange;
 }
 
 .primary {

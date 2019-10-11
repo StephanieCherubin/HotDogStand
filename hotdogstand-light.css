@@ -4,9 +4,41 @@ body {
   line-height: 2em;
   color: red;
   background-color: rgb(205, 165, 107);
+  margin: 0;
 }
 
 mark {
   background-color: orange;
   color: yellow;  
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.navbar > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li:first-child {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.navbar a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color:orange;
+}
+
+.navbar a:hover {
+  color: yellow;
 }
