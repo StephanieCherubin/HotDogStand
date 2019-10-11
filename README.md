@@ -19,7 +19,7 @@ Here is how the [Window's 3.1](https://en.wikipedia.org/wiki/Windows_3.1x "Wikip
 ![Window's 3.1 Hot Dog Theme](HotDogThemebyWindows3.1.png "Hot Dog Theme Inspiration")
 
 ## Live
-For the live version, click [here](https://stephaniecherubin.github.io/HotDogStand/).
+For the live version, go to [https://stephaniecherubin.github.io/HotDogStand/](https://stephaniecherubin.github.io/HotDogStand/).
 
 ## Getting Started
 
