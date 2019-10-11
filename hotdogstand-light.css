@@ -3,5 +3,10 @@ body {
   font-size: 18px;
   line-height: 2em;
   color: red;
-  background-color: rgb(238, 222, 170);
+  background-color: rgb(205, 165, 107);
+}
+
+mark {
+  background-color: orange;
+  color: yellow;  
 }
