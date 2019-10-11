@@ -1,5 +1,16 @@
 # HotDogStand
 
+## Table of contents
+* [Description](#description)
+* [Live](#live)
+* [Getting Started](#getting-started)
+* [Installing](#installing)
+* [Developing](#developing)
+* [Building](#building)
+* [Testing](#testing)
+* [Running](#running)
+* [License](#license)
+
 ## Description 
 This is a CSS Framework that is a tribute to Windows 3.1's Hot Dog Stand Color Scheme.
 
