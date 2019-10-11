@@ -1,4 +1,5 @@
 # HotDogStand ❤️🌭💛
+Does it hurt your eyes? This framework was not meant to be practical. It was made to be a fun poke. Please check all your front end works with [Web Accessibility Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 ## Table of contents
 * [Description](#description)
